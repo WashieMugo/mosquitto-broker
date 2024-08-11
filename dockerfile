@@ -9,6 +9,7 @@ COPY passwordfile /mosquitto/config/passwordfile
 
 # Expose the default MQTT port
 EXPOSE 1883
+EXPOSE 8883
 
 # Expose the WebSocket port (optional)
 EXPOSE 9001
